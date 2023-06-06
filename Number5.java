@@ -12,10 +12,9 @@ public class Number5 {
             fLetter = original.substring(i,i+1);
             bLetter = original.substring(len-i-1,len-i);
             isPalindrome = fLetter.equals(bLetter);
-            System.out.print(original.substring(i,i+1) +" and "+ original.substring(len-i-1,len-i) + "\n");
         }
 
-        System.out.print(isPalindrome);
+        System.out.print(original + " is a Palindrome? "+isPalindrome);
 
 
 
