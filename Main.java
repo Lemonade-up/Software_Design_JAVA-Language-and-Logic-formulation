@@ -5,7 +5,9 @@ public class Main {
         int lenNum = numbers.length-1;
         
         for(int i = 0; i < lenNum; i++){
-            max = numbers[i];
+            if(numbers[i] > max){
+                max = numbers[i];
+            }
             System.out.println("The maximum value in the array is: " + max);
         }
             
