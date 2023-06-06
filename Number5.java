@@ -6,11 +6,11 @@ public class Number5 {
         int lenIter = len/2;
         boolean isPalindrome = true;
 
-        for(int i = 0; i <= lenIter-1; i++){
 
-        }
 
         System.out.print(isPalindrome);
+        System.out.print(original.substring(0,1));
+        System.out.print(original.substring(len-1,len));
 
 
 
